@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9DDCDC;
+
+
+    img {
+        width: 130px;
+        height: auto;
+        margin-left: 46px;
+    }
+
+}
+
+.profile {
+    margin-left: 10px;
+}
+
+.icon {
+    padding-top: 15px;
+    font-size: 26px;
+    color: #F7F7F7;
+}
+
+
+.header_icons {
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+
+}

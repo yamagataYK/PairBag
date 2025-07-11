@@ -1,0 +1,13 @@
+.footer {
+    height: 100px;
+    background-color: #E9FDFF;
+    display: flex;
+
+}
+
+.textarea {
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+}
