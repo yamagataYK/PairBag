@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Main from '../components/Main'
 const Chat = () => {
     return (
-        <div>
+        <Main>
             <h1>チャット</h1>
-        </div>
+        </Main >
     )
 }
 

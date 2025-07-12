@@ -7,8 +7,8 @@ const ChatFooter = () => {
         <>
             <Outlet />
             <footer className={styles.footer}>
-                <input type="text" className={styles.textarea} />
-                <FaPaperPlane />
+                <input type="text" placeholder='メッセージを入力' className={styles.textarea} />
+                <FaPaperPlane className={styles.icon} />
             </footer>
         </>
     )

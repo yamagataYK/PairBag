@@ -2,7 +2,7 @@ import { Link, Outlet, } from 'react-router-dom';
 import { FaBullhorn, FaRegUser } from "react-icons/fa6";
 import { FaRegBell } from "react-icons/fa";
 import styles from "../styles/layouts/MainHeader.module.css";
-import logo from '../assets/logo.png';
+
 
 const MainHeader = () => {
     return (
@@ -12,7 +12,7 @@ const MainHeader = () => {
                     <FaRegUser className={`${styles.icon} ${styles.profile}`} />
                 </Link>
 
-                <img src={logo} alt="ロゴ" />
+                <img src="/images/logo.png" alt="ロゴ" />
 
                 <div className={styles.header_icons}>
                     <Link to="/notice">
