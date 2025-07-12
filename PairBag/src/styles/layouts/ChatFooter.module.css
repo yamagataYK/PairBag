@@ -2,6 +2,9 @@
     height: 100px;
     background-color: #E9FDFF;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 }
 
@@ -10,4 +13,17 @@
     height: 40px;
     border-radius: 10px;
     font-size: 16px;
+}
+
+.icon {
+    width: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #E9FDFF;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
